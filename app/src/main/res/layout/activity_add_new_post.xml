@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewPost"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/postDescriptionEditTextView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="What You Want To Talk About..."
+        android:textSize="22sp"
+        android:layout_margin="12dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"></EditText>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_margin="12dp"></View>
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_margin="22dp"
+        android:padding="12dp"
+        android:text="post"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="@drawable/post_button_drawable"
+        android:textSize="22sp"></Button>
+</LinearLayout>
